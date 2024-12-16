@@ -35,7 +35,8 @@ html {
 }
 
 .contact-card .card-header {
-    background:  linear-gradient(to bottom, #0b3e74, #1b4068);
+    /* background:  linear-gradient(to bottom, #0b3e74, #1b4068); */
+    background-color: #001d4c;
     color: #fff;
     text-align: center;
     padding: 20px;
