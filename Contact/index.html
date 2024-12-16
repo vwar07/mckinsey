@@ -10,143 +10,112 @@
         </div>
 
         <div class="row d-flex align-items-center" style="margin-left: 50px; margin-right: 50px;">
-            <!-- Navigation Section -->
-            <div class="col-md-4 col-lg-4">
-                <ul class="nav flex-column nav-pills contact-nav-pills" id="ContactTabs" role="tablist">
-                    <li class="nav-item d-flex align-items-center" role="presentation">
-                        <button class="nav-link contact-nav-links active text-center" id="Bangaluru-tab"
-                            data-bs-toggle="pill" data-bs-target="#Bangaluru-content" type="button" role="tab"
-                            aria-controls="Bangaluru-content" aria-selected="true">
-                            Bengaluru
-                        </button>
-                    </li>
-                    <li class="nav-item d-flex align-items-center" role="presentation">
-                        <button class="nav-link contact-nav-links text-center" id="Chennai-tab" data-bs-toggle="pill"
-                            data-bs-target="#Chennai-content" type="button" role="tab" aria-controls="Chennai-content"
-                            aria-selected="false">
-                            Chennai
-                        </button>
-                    </li>
-                    <li class="nav-item d-flex align-items-center" role="presentation">
-                        <button class="nav-link contact-nav-links text-center" id="Gurugram-tab" data-bs-toggle="pill"
-                            data-bs-target="#Gurugram-content" type="button" role="tab" aria-controls="Gurugram-content"
-                            aria-selected="false">
-                            Gurugram
-                        </button>
-                    </li>
-                    <li class="nav-item d-flex align-items-center" role="presentation">
-                        <button class="nav-link contact-nav-links text-center" id="Kolkata-tab" data-bs-toggle="pill"
-                            data-bs-target="#Kolkata-content" type="button" role="tab" aria-controls="Kolkata-content"
-                            aria-selected="false">
-                            Kolkata
-                        </button>
-                    </li>
-                    <li class="nav-item d-flex align-items-center" role="presentation">
-                        <button class="nav-link contact-nav-links text-center" id="Mumbai-tab" data-bs-toggle="pill"
-                            data-bs-target="#Mumbai-content" type="button" role="tab" aria-controls="Mumbai-content"
-                            aria-selected="false">
-                            Mumbai
-                        </button>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Content Section -->
-            <div class="col-md-8 col-lg-8">
-                <div class="tab-content" id="ContactContentTabsContent">
-                    <!-- Bengaluru Tab -->
-                    <div class="tab-pane fade show active" id="Bangaluru-content" role="tabpanel"
-                        aria-labelledby="Bangaluru-tab">
-                        <div class="card p-4 rounded-3">
-                            <div class="card-header contact-card-header">
-                                <i class="bi bi-geo-alt-fill me-2"></i>Bengaluru
-                            </div>
-                            <div class="card-body">
-                                <p><i class="bi bi-building me-2"></i>6th Floor, 1 SOBHA</p>
-                                <p><i class="bi bi-geo me-2"></i>No: 50, St. Marks Road</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Bengaluru - 560001, India</p>
-                                <hr>
-                                <p><strong><i class="bi bi-telephone-fill me-2"></i>Voice: </strong> +91 (80) 66744000
-                                </p>
-                                <p><strong><i class="bi bi-printer-fill me-2"></i>Fax: </strong> +91 (80) 66744400</p>
+            <div class="row mt-2">
+                <!-- Tabs (Links) Section -->
+                <div class="col-md-4 col-lg-4">
+                    <ul class="nav flex-column nav-pills" id="tabList" role="tablist">
+                        <li class="nav-item mb-2" role="presentation">
+                            <a class="nav-link active text-start" id="Bangaluru-tab" data-bs-toggle="pill"
+                                href="#Bangaluru-content" role="tab" aria-controls="Bangaluru-content" aria-selected="true">
+                                Bengaluru
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2" role="presentation">
+                            <a class="nav-link text-start" id="Chennai-tab" data-bs-toggle="pill"
+                                href="#Chennai-content" role="tab" aria-controls="Chennai-content" aria-selected="false">
+                                Chennai
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2" role="presentation">
+                            <a class="nav-link text-start" id="Gurugram-tab" data-bs-toggle="pill"
+                                href="#Gurugram-content" role="tab" aria-controls="Gurugram-content" aria-selected="false">
+                                Gurugram
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2" role="presentation">
+                            <a class="nav-link text-start" id="Kolkata-tab" data-bs-toggle="pill"
+                                href="#Kolkata-content" role="tab" aria-controls="Kolkata-content" aria-selected="false">
+                                Kolkata
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2" role="presentation">
+                            <a class="nav-link text-start" id="Mumbai-tab" data-bs-toggle="pill"
+                                href="#Mumbai-content" role="tab" aria-controls="Mumbai-content" aria-selected="false">
+                                Mumbai
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            
+                <!-- Content Section -->
+                <div class="col-md-8 col-lg-8">
+                    <div class="tab-content" id="contentTabsContent">
+                        <!-- Bengaluru Tab -->
+                        <div class="tab-pane fade show active" id="Bangaluru-content" role="tabpanel" aria-labelledby="Bangaluru-tab">
+                            <div class="card border-primary shadow-sm">
+                                <div class="card-body">
+                                    <p><i class="bi bi-building me-2"></i>6th Floor, 1 SOBHA</p>
+                                    <p><i class="bi bi-geo me-2"></i>No: 50, St. Marks Road</p>
+                                    <p><i class="bi bi-geo-alt me-2"></i>Bengaluru - 560001, India</p>
+                                    <hr>
+                                    <p><strong><i class="bi bi-telephone-fill me-2"></i>Voice: </strong>+91 (80) 66744000</p>
+                                    <p><strong><i class="bi bi-printer-fill me-2"></i>Fax: </strong>+91 (80) 66744400</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <!-- Other Cities -->
-                    <div class="tab-pane fade" id="Chennai-content" role="tabpanel" aria-labelledby="Chennai-tab">
-                        <div class="card p-4 rounded-3">
-                            <div class="card-header contact-card-header">
-                                <i class="bi bi-geo-alt-fill me-2"></i>Chennai
-                            </div>
-                            <div class="card-body">
-                                <p><i class="bi bi-building me-2"></i>Alamelu Terrace, 5th Floor,</p>
-                                <p><i class="bi bi-geo me-2"></i>163, Anna Salai,</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Chennai 600 002</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Tamil Nadu, India</p>
-                                <hr>
-                                <p><strong><i class="bi bi-telephone-fill me-2"></i>Voice: </strong> +91 (44) 6641 3000
-                                </p>
-                                <p><strong><i class="bi bi-printer-fill me-2"></i>Fax: </strong> +91 (44) 6641 3333</p>
+            
+                        <!-- Chennai Tab -->
+                        <div class="tab-pane fade" id="Chennai-content" role="tabpanel" aria-labelledby="Chennai-tab">
+                            <div class="card border-primary shadow-sm">
+                                <div class="card-body">
+                                    <p><i class="bi bi-building me-2"></i>Alamelu Terrace, 5th Floor</p>
+                                    <p><i class="bi bi-geo me-2"></i>163, Anna Salai</p>
+                                    <p><i class="bi bi-geo-alt me-2"></i>Chennai - 600002, Tamil Nadu, India</p>
+                                    <hr>
+                                    <p><strong><i class="bi bi-telephone-fill me-2"></i>Voice: </strong>+91 (44) 6641 3000</p>
+                                    <p><strong><i class="bi bi-printer-fill me-2"></i>Fax: </strong>+91 (44) 6641 3333</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <!-- Gurugram, Kolkata, Mumbai -->
-                    <div class="tab-pane fade" id="Gurugram-content" role="tabpanel" aria-labelledby="Gurugram-tab">
-                        <div class="card p-4 rounded-3">
-                            <div class="card-header contact-card-header">
-                                <i class="bi bi-geo-alt-fill me-2"></i>Gurugram
-                            </div>
-                            <div class="card-body">
-                                <p><i class="bi bi-building me-2"></i>Plot No. 4, Echelon Institutional </p>
-                                <p><i class="bi bi-geo me-2"></i>Area,</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Sector 32,</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Gurugram 122 001</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Haryana, India</p>
-                                <hr>
-                                <p><strong><i class="bi bi-telephone-fill me-2"></i>Voice: </strong>+91 (124) 661 1000
-                                </p>
-                                <p><strong><i class="bi bi-printer-fill me-2"></i>Fax: </strong> +91 (124) 661 1400</p>
+            
+                        <!-- Gurugram Tab -->
+                        <div class="tab-pane fade" id="Gurugram-content" role="tabpanel" aria-labelledby="Gurugram-tab">
+                            <div class="card border-primary shadow-sm">
+                                <div class="card-body">
+                                    <p><i class="bi bi-building me-2"></i>Plot No. 4, Echelon Institutional Area</p>
+                                    <p><i class="bi bi-geo me-2"></i>Sector 32</p>
+                                    <p><i class="bi bi-geo-alt me-2"></i>Gurugram - 122001, Haryana, India</p>
+                                    <hr>
+                                    <p><strong><i class="bi bi-telephone-fill me-2"></i>Voice: </strong>+91 (124) 661 1000</p>
+                                    <p><strong><i class="bi bi-printer-fill me-2"></i>Fax: </strong>+91 (124) 661 1400</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="Kolkata-content" role="tabpanel" aria-labelledby="Kolkata-tab">
-                        <div class="card p-4 rounded-3">
-                            <div class="card-header contact-card-header">
-                                <i class="bi bi-geo-alt-fill me-2"></i>Kolkata
-                            </div>
-                            <div class="card-body">
-                                <p><i class="bi bi-building me-2"></i>69, Park St</p>
-                                <p><i class="bi bi-geo me-2"></i>P.S. Arcadia Centrum Fl. 11</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Kolkata</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>WB 700016</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>India</p>
-                                <hr>
-                                <p><strong><i class="bi bi-telephone-fill me-2"></i>Voice: </strong>+91 33-48098500</p>
+            
+                        <!-- Kolkata Tab -->
+                        <div class="tab-pane fade" id="Kolkata-content" role="tabpanel" aria-labelledby="Kolkata-tab">
+                            <div class="card border-primary shadow-sm">
+                                <div class="card-body">
+                                    <p><i class="bi bi-building me-2"></i>69, Park St</p>
+                                    <p><i class="bi bi-geo me-2"></i>P.S. Arcadia Centrum, Fl. 11</p>
+                                    <p><i class="bi bi-geo-alt me-2"></i>Kolkata - 700016, WB, India</p>
+                                    <hr>
+                                    <p><strong><i class="bi bi-telephone-fill me-2"></i>Voice: </strong>+91 (33) 48098500</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="Mumbai-content" role="tabpanel" aria-labelledby="Mumbai-tab">
-                        <div class="card p-4 rounded-3">
-                            <div class="card-header contact-card-header">
-                                <i class="bi bi-geo-alt-fill me-2"></i>Mumbai
-                            </div>
-                            <div class="card-body">
-                                <p><i class="bi bi-building me-2"></i>Ground floor, North Avenue 1,</p>
-                                <p><i class="bi bi-geo me-2"></i>Maker Maxity, Bandra Kurla</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Complex Rd, BKC, Bandra East,</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Mumbai 400 051</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Maharashtra, India</p>
-                                <br>
-                                <p><i class="bi bi-geo-alt me-2"></i>21st Floor, Express Towers,</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Nariman Point,</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Mumbai 400 021</p>
-                                <p><i class="bi bi-geo-alt me-2"></i>Maharashtra, India</p>
-                                <hr>
-                                <p><strong><i class="bi bi-telephone-fill me-2"></i>Voice: </strong>+91 (22) 6630 2000
-                                </p>
-                                <p><strong><i class="bi bi-printer-fill me-2"></i>Fax: </strong>+91 (22) 6630 2444</p>
+            
+                        <!-- Mumbai Tab -->
+                        <div class="tab-pane fade" id="Mumbai-content" role="tabpanel" aria-labelledby="Mumbai-tab">
+                            <div class="card border-primary shadow-sm">
+                                <div class="card-body">
+                                    <p><i class="bi bi-building me-2"></i>Ground Floor, North Avenue 1</p>
+                                    <p><i class="bi bi-geo me-2"></i>Maker Maxity, Bandra Kurla Complex</p>
+                                    <p><i class="bi bi-geo-alt me-2"></i>Mumbai - 400051, Maharashtra, India</p>
+                                    <hr>
+                                    <p><strong><i class="bi bi-telephone-fill me-2"></i>Voice: </strong>+91 (22) 6630 2000</p>
+                                    <p><strong><i class="bi bi-printer-fill me-2"></i>Fax: </strong>+91 (22) 6630 2444</p>
+                                </div>
                             </div>
                         </div>
                     </div>
