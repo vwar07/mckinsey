@@ -1,0 +1,92 @@
+
+#main-page{
+    background: url('Images/mainbackground.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.section-1 {
+    /* background: linear-gradient(135deg, #001d4c, #002b7f); */
+    color: white;
+    padding: 100px 50px;
+}
+.section-1 h1 {
+    font-size: 3rem;
+}
+.section-1 a {
+    color: #00d4ff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.section-1 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+.section-2 {
+    /* background: linear-gradient(135deg, #001d4c, #002b7f); */
+    color: white;
+    padding: 10px;
+}
+
+.terending-insight-number-fs {
+    font-size: medium;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.terending-insight-fs {
+    font-size: x-small;
+    color: black;
+}
+
+.custom-hover:hover {
+    color: #0056b3 ;
+}
+
+
+
+
+.section-3, .section-4, .section-5 {
+    padding: 20px;
+    background-color: white;
+}
+.section-3 img, .section-4 img, .section-5 img {
+    width: 100%;
+    height: auto;
+}
+.section-3 .text-box h2, .section-4 .text-box h2, .section-5 .text-box h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.section-3 .text-box p, .section-4 .text-box p, .section-4 .text-box p {
+    font-size: 1rem;
+}
+.section-3 .text-box a, .section-4 .text-box a, .section-5 .text-box a {
+    color:#0b3e74;
+    text-decoration: none;
+}
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+.grid-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+.grid-section .text-box h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.grid-section .text-box a {
+    color: #0b3e74;
+    text-decoration: none;
+}
+.grid-section .text-box a:hover {
+    text-decoration: underline;
+}

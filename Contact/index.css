@@ -1,0 +1,111 @@
+.contact-nav-pills .contact-nav-links {
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.contact-nav-pills .contact-nav-links:hover, .contact-nav-pills .contact-nav-links.active {
+    background-color: #0b3e74;
+    color: #fff;
+    border-color: #007bff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card-header {
+    background: linear-gradient(to bottom, #0b3e74, #1b4068);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.bi {
+    font-size: 1.1rem;
+    color: #0b3e74;
+}
+
+.tab-content {
+    margin-top: 10px;
+}
+
+
+
+.form-container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    color: #0056b3;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 600;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-check-label {
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn-submit {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+.captcha-container {
+    margin: 15px 0;
+}
+
+.form-note {
+    font-size: 0.9rem;
+    color: #777;
+}

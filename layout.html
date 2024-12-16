@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McKinsey</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="Main/index.css">
+    <link rel="stylesheet" href="Industries/AerospaceAndDefence/index.css">
+    <link rel="stylesheet" href="About/index.css">
+    <link rel="stylesheet" href="Contact/index.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-4" href="Main/index.html" data-page="Main/index.html">McKinsey & Company</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link-fs" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Industries
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item nav-link-fs" href="Industries/AerospaceAndDefence/index.html"
+                                    data-page="Industries/AerospaceAndDefence/index.html">Areospace & Defence</a></li>
+                            <li><a class="dropdown-item nav-link-fs" href="#" data-page="pageone.html">Option 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link-fs" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Capabilities
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item nav-link-fs" href="#">Option 1</a></li>
+                            <li><a class="dropdown-item nav-link-fs" href="#">Option 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link-fs" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Featured Insights
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item nav-link-fs" href="#">Option 1</a></li>
+                            <li><a class="dropdown-item nav-link-fs" href="#">Option 2</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-fs" href="About/index.html" data-page="About/index.html">About Us</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-fs" href="#">McKinsey Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Placeholder -->
+    <div id="content">
+
+    </div>
+
+    <div class="container">
+        <!-- Row with a bold border -->
+        <div class="row justify-content-center text-center py-2 border-top border-1 border-dark">
+            <div class="col-lg-8 col-md-10 col-sm-12">
+                <!-- Heading Section -->
+                <div class="mb-4">
+                    <h3 class="fw-bold text-dark">How can we help you?</h3>
+                </div>
+                <!-- Link Section -->
+                <div>
+                    <p class="fs-5">
+                        <a href="/contact-us" class="btn btn-primary px-4 text-white rounded-pill shadow-sm">
+                            Get in touch
+                        </a> with us.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer text-white">
+        <div class="">
+            <div class="row py-4 px-5 align-items-center">
+                <!-- Left Section -->
+                <div class="col-lg-6 col-md-6 col-sm-12 py-2 px-4">
+                    <p class="mb-3 fs-4">
+                        Stay ahead in a rapidly changing world. Subscribe to Bain Insights, our monthly look at the
+                        critical issues facing global businesses.
+                    </p>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-sm-12 py-2 px-4"> 
+                    <form id="" novalidate="">
+                        <div class="mb-3">
+                            <input id="Email2" class="form-control bg-secondary" type="email" name="Email"
+                                placeholder="Your email address" required="">
+                        </div>
+                        <label class="checkbox d-flex align-items-center mb-3">
+                            <input name="privacy-policy" type="checkbox" required="" class="me-2">
+                            <p class="mb-0">
+                                <span class="text-white">*I have read the </span>
+                                <a title="Privacy Policy" href="/about/privacy/" target="_blank"
+                                    class="text-white text-decoration-none">Privacy Policy</a>
+                                <span class="text-white">&nbsp;and agree to its terms.</span>
+                            </p>
+                        </label>
+                        <button id="" class="btn btn-danger mt-2" type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 align-items-center">
+                    <div class=" px-5 d-flex justify-content-between">
+                        <a href="Contact/index.html" data-page="Contact/index.html" class="text-white text-decoration-none py-1 footer-link-fs">
+                            <i class="bi bi-envelope me-2"></i> Contact Us
+                        </a>
+                        <a href="#" class="text-white text-decoration-none py-1 footer-link-fs">
+                            <i class="bi bi-tree me-2"></i> Sustainability
+                        </a>
+                        <a href="#" class="text-white text-decoration-none py-1 footer-link-fs">
+                            <i class="bi bi-person-check me-2"></i> Accessibility
+                        </a>
+                        <a href="#" class="text-white text-decoration-none py-1 footer-link-fs">
+                            <i class="bi bi-book me-2"></i> Terms of Use
+                        </a>
+                        <a href="#" class="text-white text-decoration-none py-1 footer-link-fs">
+                            <i class="bi bi-shield-lock me-2"></i> Privacy Policy
+                        </a>
+                        <a href="#" class="text-white text-decoration-none py-1 footer-link-fs">
+                            <i class="bi bi-cookie me-2"></i> Cookie Policy
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery (Required for Select2) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+<div id="aerospace-defence-page">
+    <!-- Section 1 -->
+    <section class="d-flex align-items-center aerospace-defence-page-section-1" style="background: url('Industries/AerospaceAndDefence/Images/aeroplanebottom.jpg') no-repeat center center fixed; 
+           background-size: cover; 
+           height: 100vh; 
+           width: 100%;">
+        <div class="container">
+            <div class="row" id="aerospace-defence-page-lable-card">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="card-body border rounded shadow-sm p-4"
+                        style="background-color: rgba(247, 244, 245, 0.767);">
+                        <p class="text-primary mb-1 fs-4">Industry</p>
+                        <h1 class="text-dark fw-bold fs-3">Aerospace & Defense</h1>
+                        <p class="text-dark fw-bold fs-6">Reach new heights of performance and innovation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="tabs" class="container-fluid py-3" style="background-color: white; z-index: 999;">
+        <ul class="nav nav-tabs justify-content-start"
+            style="position: sticky; top: 60; background-color: white; z-index: 1000;">
+            <li class="nav-item px-4">
+                <div class="d-flex align-items-center gap-2 ">
+                    <span class="number d-block fw-bold fs-7 text-center">Aerospace & Defence</span>
+                    <div class="vl border-end border-primary" style="height: 30px; width: 2px;"></div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link aerospace-defence-nav-link active fs-8" href="#aerospace-defence-overview"
+                    onclick="initializeAreoSpaceScrollSpy(this)">Overview</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link aerospace-defence-nav-link fs-8" href="#aerospace-defence-what-we-do"
+                    onclick="initializeAreoSpaceScrollSpy(this)">What We Do</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container">
+
+        <div id="aerospace-defence-overview" class="row aerospace-defence-section py-5 offset-section"
+            style="padding-left: 50px; padding-right: 50px;">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h2>Overview</h2>
+                <div>
+                    <!-- First paragraph (always visible) -->
+                    <p id="aerospace-defence-overview-visible" class="fs-5">
+                        Across every subsector of aerospace and defense—including commercial aerospace, <br /> defense,
+                        space, and government services we help leaders solve their most challenging problems and emerge
+                        stronger than ever.
+                    </p>
+
+                    <!-- Hidden content (rest of the paragraphs) -->
+                    <div id="aerospace-defence-overview-hidden" class="fs-5" style="display: none;">
+                        <p>Our aerospace and defense consulting expertise has enabled clients around the globe to pursue
+                            digital transformation, sustainability, operational excellence, cost containment, and more.
+                        </p>
+                        <p>Whether you’re seeking manufacturing improvements powered by robotics and AI, strategic
+                            advice on transitioning to the cloud, or a way to boost resiliency amid supply-chain
+                            disruptions...</p>
+                        <p>As the commercial aerospace industry rebounds from the historic downturn of 2020-21, new
+                            challenges are on the horizon...</p>
+                        <p>Backed by our extensive network of industry and functional experts, we help you transform
+                            cost structures, improve performance...</p>
+                        <p>Waves of industry disruption make this an ideal time for A&D companies and their investors to
+                            develop and implement strategies...</p>
+                    </div>
+
+                    <!-- "Show More" link -->
+                    <a id="aerospace-defence-show-more-link" target-element="aerospace-defence-overview-hidden"
+                        class="text-primary text-decoration-none fs-8 fw-bold"
+                        onclick="viewMoreParagraph(event, this)">Show More</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="aerospace-defence-what-we-do" class="row aerospace-defence-section offset-section">
+            <div class="container">
+                <div class="row col-12" style="padding-left: 50px; padding-right: 50px;">
+                    <h2>What We Do</h2>
+                </div>
+
+                <div class="row mt-2">
+                    <!-- Tabs (Links) Section -->
+                    <div class="col-md-4 col-lg-4">
+                        <ul class="nav flex-column nav-pills" id="" role="">
+                            <li class="nav-item mb-2" role="presentation">
+                                <a class="nav-link active text-start" id="commercial-tab" data-bs-toggle="pill"
+                                    href="#commercial-aerospace-content" role="tab"
+                                    aria-controls="commercial-aerospace-content" aria-selected="true">
+                                    Commercial Aerospace
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2" role="">
+                                <a class="nav-link text-start" id="defense-tab" data-bs-toggle="pill"
+                                    href="#defence-content" role="tab" aria-controls="defence-content"
+                                    aria-selected="false">
+                                    Defense
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2" role="">
+                                <a class="nav-link text-start" id="space-tab" data-bs-toggle="pill"
+                                    href="#space-content" role="tab" aria-controls="space-content"
+                                    aria-selected="false">
+                                    Space
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2" role="">
+                                <a class="nav-link text-start" id="government-tab" data-bs-toggle="pill"
+                                    href="#goverement-services-content" role="tab"
+                                    aria-controls="goverement-services-content" aria-selected="false">
+                                    Government Services
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Content Section -->
+                    <div class="col-md-8 col-lg-8">
+                        <div class="tab-content" id="contentTabsContent">
+                            <!-- Commercial Aerospace Content -->
+                            <div class="tab-pane fade show active" id="commercial-aerospace-content" role="tabpanel"
+                                aria-labelledby="commercial-tab">
+                                <div class="card border-primary shadow-sm p-4">
+                                    <h5>Commercial Aerospace</h5>
+                                    <p>
+                                        The global pandemic has posed a profound stress test for every corner of the
+                                        commercial aerospace industry. As a new normal takes shape, we’re helping our
+                                        clients redesign their operating models, navigate consolidation, and meet
+                                        ambitious sustainability imperatives. Our clients include virtually every major
+                                        aircraft and engine manufacturer, component creators, commercial transport
+                                        companies, makers of jet propulsion systems, and dozens of key suppliers and
+                                        service providers.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Defense Content -->
+                            <div class="tab-pane fade" id="defence-content" role="tabpanel"
+                                aria-labelledby="defense-tab">
+                                <div class="card border-primary shadow-sm p-4">
+                                    <h5>Defense</h5>
+                                    <p>
+                                        We understand the seismic forces reshaping business for defense contractors
+                                        today. Amid extraordinary budgetary pressures, new entrants are emerging around
+                                        the globe as corporate consolidation continues across the industry. While
+                                        capital is sometimes abundant, it is harder than ever to find and harness the
+                                        right talent. To thrive, established companies must become more agile, getting
+                                        products to market faster than ever—customers increasingly expect this, and at
+                                        lower cost. We can help you adapt to these trends, with a proven track record
+                                        built on successful engagements with virtually every A&D prime and dozens of
+                                        Tier I/II suppliers.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Space Content -->
+                            <div class="tab-pane fade" id="space-content" role="tabpanel" aria-labelledby="space-tab">
+                                <div class="card border-primary shadow-sm p-4">
+                                    <h5>Space</h5>
+                                    <p>
+                                        Lower launch costs, smaller satellites, reusable rockets: the “space race” has
+                                        evolved from a battle of superpowers to an increasingly accessible business
+                                        proposition. As commercial aerospace companies redefine the market, and as huge
+                                        investments flow from venture capitalists, the barriers to entry are falling in
+                                        ways that were once unthinkable. This creates profound opportunities for
+                                        companies involved with spacecraft launches, mission control, and services for
+                                        geostationary and lower-earth orbit products. But it also means intense
+                                        competition. We can help you thrive in this brave new frontier.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Government Services Content -->
+                            <div class="tab-pane fade" id="goverement-services-content" role="tabpanel"
+                                aria-labelledby="government-tab">
+                                <div class="card border-primary shadow-sm p-4">
+                                    <h5>Government Services</h5>
+                                    <p>
+                                        For decades we have helped the world’s largest and most successful government
+                                        contractors improve performance and deliver new levels of service. We can help
+                                        you modernize IT systems, control costs, and recruit top talent. Our global
+                                        footprint and wide-ranging expertise give us a deep understanding of what it
+                                        takes to win in a sector characterized by rapidly evolving market dynamics,
+                                        shifting regulations, and new competitors.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="contact-card shadow">
+            <!-- Card Header -->
+            <div class="card-header">
+                Ready to Talk?
+            </div>
+
+            <!-- Card Body -->
+            <div class="card-body">
+                <div class="row">
+                    <!-- Left Column -->
+                    <div class="col-md-6 border-end p-4">
+                        <label for="industry-select" class="form-label">I want to talk to your experts in:</label>
+                        <select id="industry-select" class="form-select mb-3" required>
+                            <option value="">Select Industry</option>
+                            <option value="Aerospace & Defense">Aerospace & Defense</option>
+                            <option value="Advanced Manufacturing & Services">Advanced Manufacturing & Services</option>
+                            <option value="Agribusiness">Agribusiness</option>
+                            <option value="Automotive">Automotive</option>
+                            <option value="Aviation">Aviation</option>
+                            <option value="Chemicals">Chemicals</option>
+                            <option value="Consumer Products">Consumer Products</option>
+                            <option value="Energy & Natural Resources">Energy & Natural Resources</option>
+                            <option value="Financial Services">Financial Services</option>
+                            <option value="Healthcare & Life Sciences">Healthcare & Life Sciences</option>
+                            <option value="Technology">Technology</option>
+                            <option value="Telecommunications">Telecommunications</option>
+                        </select>
+                        <span class="form-error d-none" id="error-message">Please select an industry from the dropdown
+                            list</span>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-md-6 p-4">
+                        <p class="contact-description">
+                            We work with ambitious leaders who want to define the future, not hide from it. Together, we
+                            achieve extraordinary outcomes.
+                        </p>
+                        <label for="email-input" class="form-label">Your email</label>
+                        <input id="email-input" class="form-control mb-2" type="email" name="Email"
+                            placeholder="Your email" required>
+                        <span class="form-error d-none" id="email-error">Please enter a valid email address</span>
+
+                        <button class="btn btn-primary btn-custom w-100 mt-3" onclick="readyToTalkSubmit()" type="button">CONTACT
+                            US</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
