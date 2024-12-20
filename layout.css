@@ -2,11 +2,11 @@
     font-family: 'Arial', sans-serif; 
 } */
 
-/* body {
+body {
     font-family: Georgia, serif;
-} */
+}
 
-@font-face {
+/* @font-face {
     font-family: "Myriad Hebrew";
     src: url("https://db.onlinewebfonts.com/t/1ce2d5cd34ac27b0c31dbf6cc3c1f272.eot");
     src: url("https://db.onlinewebfonts.com/t/1ce2d5cd34ac27b0c31dbf6cc3c1f272.eot?#iefix")format("embedded-opentype"),
@@ -17,7 +17,7 @@
 }
 body {
     font-family: "Myriad Hebrew";
-}
+} */
 
 
 
@@ -82,7 +82,8 @@ h1, h2, h3, h4, h5, h6 {
     /* background-image: linear-gradient(to bottom, #0b3e74, #1b4068);  */
     /* background-color: #001d4c; */
     /* background-image: linear-gradient(to bottom, #051C2C 60%, #102737 80%, #1a547d 98%, #1F40CB 100%); */
-    background-image: linear-gradient(to bottom, #051C2C 60%, #1F40CB 100%);
+    /* background-image: linear-gradient(to bottom, #051C2C 60%, #1F40CB 100%); */
+    background-image: linear-gradient(to bottom, #1F40CB 60%, #051C2C 100%);
     color: white; 
     padding-top: 20px;
     padding-bottom: 20px;
