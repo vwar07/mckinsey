@@ -83,7 +83,9 @@ h1, h2, h3, h4, h5, h6 {
     /* background-color: #001d4c; */
     /* background-image: linear-gradient(to bottom, #051C2C 60%, #102737 80%, #1a547d 98%, #1F40CB 100%); */
     /* background-image: linear-gradient(to bottom, #051C2C 60%, #1F40CB 100%); */
-    background-image: linear-gradient(to bottom, #1F40CB 60%, #051C2C 100%);
+    /* background-image: linear-gradient(to bottom, #1F40CB 60%, #051C2C 100%); */
+    /* background-image: linear-gradient(to bottom, #1F40CB 10%, #051C2C 100%); */
+    background-image: linear-gradient(to top, #051C2C 60%, #1F40CB 100%);
     color: white; 
     padding-top: 20px;
     padding-bottom: 20px;
