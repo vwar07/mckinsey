@@ -2,9 +2,24 @@
     font-family: 'Arial', sans-serif; 
 } */
 
-body {
+/* body {
     font-family: Georgia, serif;
+} */
+
+@font-face {
+    font-family: "Myriad Hebrew";
+    src: url("https://db.onlinewebfonts.com/t/1ce2d5cd34ac27b0c31dbf6cc3c1f272.eot");
+    src: url("https://db.onlinewebfonts.com/t/1ce2d5cd34ac27b0c31dbf6cc3c1f272.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1ce2d5cd34ac27b0c31dbf6cc3c1f272.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1ce2d5cd34ac27b0c31dbf6cc3c1f272.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/1ce2d5cd34ac27b0c31dbf6cc3c1f272.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1ce2d5cd34ac27b0c31dbf6cc3c1f272.svg#Myriad Hebrew")format("svg");
 }
+body {
+    font-family: "Myriad Hebrew";
+}
+
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, serif;
@@ -12,7 +27,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar {
     /* background-image: linear-gradient(to bottom,  #0b3e74, #1b4068);  */
-    background-color: #001d4c;
+    /* background-color: #001d4c; */
+    /* background-image: linear-gradient(to bottom, #051C2C, #051C2C, #051C2C, #051C2C, #1F40CB); */
+    /* background-image: linear-gradient(to bottom, #051C2C 60%, #102737 80%, #1a547d 98%, #1F40CB 100%); */
+    /* background-image: linear-gradient(to bottom, #051C2C 50%, #102737 60%, #1a547d 70%, #1F40CB 100%); */
+    background-image: linear-gradient(to bottom, #051C2C 60%, #1F40CB 100%);
     border: none; 
 }
 .nav-link-fs{
@@ -61,7 +80,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer {
     /* background-image: linear-gradient(to bottom, #0b3e74, #1b4068);  */
-    background-color: #001d4c;
+    /* background-color: #001d4c; */
+    /* background-image: linear-gradient(to bottom, #051C2C 60%, #102737 80%, #1a547d 98%, #1F40CB 100%); */
+    background-image: linear-gradient(to bottom, #051C2C 60%, #1F40CB 100%);
     color: white; 
     padding-top: 20px;
     padding-bottom: 20px;
